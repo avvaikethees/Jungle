@@ -5,7 +5,7 @@
   </header>
   <% if enhanced_cart.empty? %>
     <div class="alert alert-danger" role="alert">
-      Your cart is empty. Please continue shopping
+      <p> Uh oh! You don't have anything in the cart :( Click <%= link_to 'here', :root %> to continue shopping </p>
     </div>
 
   <% else %>
